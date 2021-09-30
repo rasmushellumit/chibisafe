@@ -7,7 +7,6 @@ services:
             dockerfile: Dockerfile
         expose:
             - "80"
-            - "443"
         ports:
             - "727:80"
         restart: unless-stopped
@@ -30,7 +29,7 @@ services:
             ROUTE_PREFIX: /api
             RATE_LIMIT_WINDOW: 2
             RATE_LIMIT_MAX: 5
-            BLOCKED_EXTENSIONS: ".jar,.exe,.msi,.com,.bat,.cmd,.scr,.ps1,.sh"
+            BLOCKED_EXTENSIONS: ""
             SECRET: ""
             MAX_LINKS_PER_ALBUM: 5
             META_THEME_COLOR: "#20222b"
@@ -49,8 +48,8 @@ services:
             GENERATED_ALBUM_LENGTH: 4
             PUBLIC_MODE: "false"
             USER_ACCOUNTS: "true"
-            ADMIN_ACCOUNT: ""
-            ADMIN_PASSWORD: ""
+            ADMIN_ACCOUNT: "admin"
+            ADMIN_PASSWORD: "admin"
             DB_CLIENT: "sqlite3"
             DB_HOST: ""
             DB_USER: ""
