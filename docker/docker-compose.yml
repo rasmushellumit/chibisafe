@@ -39,7 +39,7 @@ services:
             META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free"
             META_TWITTER_HANDLE: ""
             SERVER_PORT: 5000
-            DOMAIN: "http://localhost:5000"
+            DOMAIN: "http://0.0.0.0:5000"
             SERVICE_NAME: chibisafe
             MAX_SIZE: 5000
             GENERATE_THUMBNAILS: "true"
