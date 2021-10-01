@@ -1,20 +1,6 @@
 version: "3.7"
 
 services:
-    nginx:
-        build:
-            context: ./nginx
-            dockerfile: Dockerfile
-        expose:
-            - "80"
-        ports:
-            - "727:80"
-        restart: unless-stopped
-        healthcheck:
-            test: ["CMD", "service", "nginx", "status"]
-            interval: 60s
-            timeout: 5s
-
     chibisafe:
         build:
             context: ../
@@ -24,7 +10,6 @@ services:
             - ./chibisafe-database:/usr/chibisafe/database
         expose:
             - "5000"
-            - "5001"
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "false"
@@ -38,9 +23,9 @@ services:
             META_THEME_COLOR: "#20222b"
             META_DESCRIPTION: "Blazing fast file uploader and bunker written in node! 🚀"
             META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free"
-            META_TWITTER_HANDLE: ""
+            META_TWITTER_HANDLE: "rapphy243"
             SERVER_PORT: 5000
-            DOMAIN: "http://localhost:5000"
+            DOMAIN: "safe.example.com"
             SERVICE_NAME: chibisafe
             MAX_SIZE: 5000
             GENERATE_THUMBNAILS: "true"
@@ -59,8 +44,6 @@ services:
             DB_PASSWORD: ""
             DB_DATABASE: ""
 volumes:
-    nginx-data:
-        name: "nginx-data"
     chibisafe-data:
         name: "chibisafe-data"
     chibisafe-database:
