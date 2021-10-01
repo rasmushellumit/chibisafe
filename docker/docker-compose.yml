@@ -8,10 +8,8 @@ services:
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
-        #expose:
-        #    - "5000" #Uncomment these if you need to use the nginx proxy manger that is included in the main repo.
-		ports:
-            - 80:5000 #Change the first number for the port you want to expose to host computer
+        expose:
+            - "5000" #Port to use to reverse proxy the container in a docker network
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "false"
