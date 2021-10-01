@@ -16,7 +16,7 @@ services:
             - ./chibisafe-database:/usr/chibisafe/database
         expose:
             - "5000"
-			- "5001"
+            - "5001"
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "false"
