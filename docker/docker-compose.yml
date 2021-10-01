@@ -1,5 +1,11 @@
 version: "3.7"
 
+volumes:
+    chibisafe-data:
+        name: "chibisafe-data"
+    chibisafe-database:
+        name: "chibisafe-database"
+
 services:
     chibisafe:
         build:
@@ -9,7 +15,8 @@ services:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
         expose:
-            - "5000" #Port to use to reverse proxy the container in a docker network
+            - "5000"
+			- "5001"
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "false"
@@ -25,7 +32,7 @@ services:
             META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free"
             META_TWITTER_HANDLE: "rapphy243"
             SERVER_PORT: 5000
-            DOMAIN: "safe.example.com" #Change example.com to your own domain
+            DOMAIN: "http://localhost:5000" #Change this later to your own domain
             SERVICE_NAME: chibisafe
             MAX_SIZE: 5000
             GENERATE_THUMBNAILS: "true"
@@ -43,8 +50,3 @@ services:
             DB_USER: ""
             DB_PASSWORD: ""
             DB_DATABASE: ""
-volumes:
-    chibisafe-data:
-        name: "chibisafe-data"
-    chibisafe-database:
-        name: "chibisafe-database"
