@@ -10,7 +10,7 @@ services:
             - ./chibisafe-database:/usr/chibisafe/database
         #expose:
         #    - "5000" #Uncomment these if you need to use the nginx proxy manger that is included in the main repo.
-			ports:
+		ports:
             - 80:5000 #Change the first number for the port you want to expose to host computer
         restart: unless-stopped
         environment:
