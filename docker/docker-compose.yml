@@ -34,7 +34,7 @@ services:
             SERVER_PORT: 5000
             DOMAIN: "https://test.rapph.dev" #Change this to the domain you are hosting this on or you will get network errors when trying to login.
             SERVICE_NAME: chibitest
-            MAX_SIZE: 0
+            MAX_SIZE: 7272
             GENERATE_THUMBNAILS: "true"
             GENERATE_ZIPS: "true"
             STRIP_EXIF: "true"
