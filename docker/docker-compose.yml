@@ -8,8 +8,10 @@ services:
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
-        expose:
-            - "5000"
+        #expose:
+        #    - "5000" #Uncomment these if you need to use the nginx proxy manger that is included in the main repo.
+			ports:
+            - 80:5000 #Change the first number for the port you want to expose to host computer
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "false"
@@ -25,7 +27,7 @@ services:
             META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free"
             META_TWITTER_HANDLE: "rapphy243"
             SERVER_PORT: 5000
-            DOMAIN: "safe.example.com"
+            DOMAIN: "safe.example.com" #Change example.com to your own domain
             SERVICE_NAME: chibisafe
             MAX_SIZE: 5000
             GENERATE_THUMBNAILS: "true"
