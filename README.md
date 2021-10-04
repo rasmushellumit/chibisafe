@@ -1,3 +1,5 @@
+This fork just makes it so the docker-compose file works with portainer and removes the need for nginx. All you need to do is just get your own reverse proxy and point to the IpOfContainer:5000.
+
 <p align="center">
   <img width="234" height="376" src="https://lolisafe.moe/xjoghu.png">
 </p>
