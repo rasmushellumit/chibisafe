@@ -44,6 +44,13 @@
 			<div class="message-body">
 				There are too many file upload services out there, and a lot of them rely on the foundations of pomf which is ancient. In a desperate and unsuccessful attempt of finding a good file uploader that's easily extendable, chibisafe was born. We give you control over your files, we give you a way to sort your uploads into albums for ease of access and we give you an api to use with ShareX or any other thing that let's you make POST requests.
 			</div>
+			<h2 class="subtitle">
+			Who is rapphy243?
+		</h2>
+		<article class="message">
+			<div class="message-body">
+				I'm some random kid on the internet who decided to tried to edit and understanding code with no prior coding knowledge. 
+			</div>
 		</article>
 	</div>
 </template>
