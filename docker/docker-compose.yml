@@ -1,11 +1,5 @@
 version: "3.7"
 
-volumes:
-    chibisafe-data:
-        name: "chibisafe-data"
-    chibisafe-database:
-        name: "chibisafe-database"
-
 services:
     chibisafe:
         build:
@@ -27,10 +21,18 @@ services:
             SECRET: "wowfcgMHqZHwOIMLadWrKu3liyqPOOILpDLSDvuxq3YGhJmiZXJCVpnF96l11WfR"
             MAX_LINKS_PER_ALBUM: 5
             META_THEME_COLOR: "#20222b"
-            META_DESCRIPTION: "Blazing fast file uploader edited by @rapphy243!"
+            META_DESCRIPTION: "Blazing fast file uploader edited by @rapphy243!            SECRET: "wowfcgMHqZHwOIMLadWrKu3liyqPOOILpDLSDvuxq3YGhJmiZXJCVpnF96l11WfR"
+            MAX_LINKS_PER_ALBUM: 5
+            META_THEME_COLOR: "#20222b"
+            META_DESCRIPTION: "Blazing fast file uploader edited by @rapphy243!🚀"
+            META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader"
+            META_TWITTER_HANDLE: "@rapphy243"
+            BLOCKED_EXTENSIONS: '.msi'
+            SERVER_PORT: 5000
+            DOMAIN: "https://safe.rapph.dev" # Change this to the domain you are hosting this on or you"
             META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free"
             META_TWITTER_HANDLE: "@rapphy243"
-            BLOCKED_EXTENSIONS: ''
+            BLOCKED_EXTENSIONS: '.msi'
             SERVER_PORT: 5000
             DOMAIN: "https://safe.rapph.dev" # Change this to the domain you are hosting this on or you will get network errors.
             SERVICE_NAME: chibisafe
