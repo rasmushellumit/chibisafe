@@ -1,6 +1,5 @@
 ## Changes from the original fork
-Makes it so the docker-compose file works with portainer and removes the need for nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)
-All you need to do is just get your own reverse proxy and point to the IpOfContainer:5000. 
+Makes it so the docker-compose file works with portainer and removes the need for nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
 Adds Ulalou's IOS Shortcut in the footer
 
 ##
@@ -37,6 +36,6 @@ If you want to deploy a docker instance instead of manually setting the service 
 ## Author
 
 **Chibisafe** © [Pitu](https://github.com/Pitu), Released under the [MIT](https://github.com/WeebDev/chibisafe/blob/master/LICENSE) License.<br>
-Authored and maintained by Pitu. Fork by [Rapphy243](https://github.com/Pitu).
+Authored and maintained by Pitu. Fork by Rapphy243
 
-> [chibisafe.moe](https://chibisafe.moe) · GitHub [@Pitu](https://github.com/Pitu) · Github [@Rapphy243](https://github.com/Pitu)
+> [chibisafe.moe](https://chibisafe.moe) · GitHub [@Pitu](https://github.com/Pitu) · Github [@Rapphy243](https://github.com/rapphy243)
