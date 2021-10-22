@@ -27,34 +27,6 @@ Chibisafe is a file uploader service written in node that aims to to be easy to 
 ### Docker
 If you want to deploy a docker instance instead of manually setting the service up, you can use `docker-composer` with our scripts. [Please refer to the docs here](docs/docker.md)
 
-### Pre-requisites
-This guide asumes a whole lot of things, including that you know your way around linux, nginx and internet in general.
-
-- Decently updated version of linux (we recommend Debian)
-- `node` version 12.18.2+ (we recommend using [volta.sh](https://volta.sh/) or [n](https://github.com/tj/n))
-- `build-essential` package installed in your system to build dependencies
-- `ffmpeg` package installed
-- `pm2` globally installed (`npm i -g pm2`) to keep the service alive at all times.
-	- Alternatively you can use tmux, forever, or whatever you are most familiar with
-- `nginx` installed and running
-
-> Note: while Chibisafe does work on Windows, setting it up is not covered in this readme. It's up to you to install the neccessary dependencies 
-
-### Installing
-
-1. Clone the repository and `cd` into it
-2. Run `npm i`
-3. Run `npm run setup`
-
-Chibisafe is now installed, configured and ready. Now you need to serve it to the public by using a domain name.
-
-4. Check the [nginx](docs/nginx.md) file for a sample configuration that has every step to run chibisafe securely on production.
-
-After you finish setting up nginx, you need to start chibisafe by using pm2. If you want to use something else like forever, ensure that the process spawned from `npm run start` never dies.
-
-5. Run `pm2 start pm2.json`:
-6. Profit
-
 ### Screenshots
 <p align="center">
   <img src="https://lolisafe.moe/73up1d.png">
@@ -65,6 +37,6 @@ After you finish setting up nginx, you need to start chibisafe by using pm2. If 
 ## Author
 
 **Chibisafe** © [Pitu](https://github.com/Pitu), Released under the [MIT](https://github.com/WeebDev/chibisafe/blob/master/LICENSE) License.<br>
-Authored and maintained by Pitu.
+Authored and maintained by Pitu. Fork by [Rapphy243](https://github.com/Pitu).
 
-> [chibisafe.moe](https://chibisafe.moe) · GitHub [@Pitu](https://github.com/Pitu)
+> [chibisafe.moe](https://chibisafe.moe) · GitHub [@Pitu](https://github.com/Pitu) · Github [@Rapphy243](https://github.com/Pitu)
