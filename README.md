@@ -23,8 +23,10 @@ Chibisafe is a file uploader service written in node that aims to to be easy to 
 - Albums, tags and Discord-like search function
 - User list and control panel
 
-### Docker
-If you want to deploy a docker instance instead of manually setting the service up, you can use `docker-composer` with our scripts. [Please refer to the docs here](docs/docker.md)
+### Docker Setup
+Make a fork of this repository.
+In portainer click Stacks and 
+
 
 ### Screenshots
 <p align="center">
