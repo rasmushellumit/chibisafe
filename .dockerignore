@@ -16,7 +16,7 @@ pids
 .vscode
 
 # Docker (experimental)
-docker/
+.docker/
 Dockerfile
 .dockerignore
 docker-compose.yml
@@ -43,4 +43,5 @@ README.md
 chibi.ps1
 chibi.sh
 dist
+.docs
 .nuxt
