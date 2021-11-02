@@ -13,7 +13,7 @@ services:
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
-        expose:
+        expose: #For some reason it gives weird issues when binding a port to the main system so keep it to expose and just network it in Docker.
             - "5000"
         hostname: chibisafe
         restart: unless-stopped
