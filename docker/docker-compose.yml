@@ -15,7 +15,7 @@ services:
             - ./chibisafe-database:/usr/chibisafe/database
         ports:
             - "4532:5000"
-		hostname: chibisafe
+        hostname: chibisafe
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "true"
