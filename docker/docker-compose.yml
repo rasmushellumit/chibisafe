@@ -1,5 +1,10 @@
 version: "3.7"
 
+networks: #Add to my Nginx Network in Docker/Not really needed 
+    default:
+        external:
+            name: nginxproxymanager_default	
+
 services:
     chibisafe:
         build:
@@ -8,8 +13,9 @@ services:
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
-        expose:
-            - "5000"
+        ports:
+            - "4532:5000"
+		hostname: chibisafe
         restart: unless-stopped
         environment:
             OVERWRITE_SETTINGS: "true"
