@@ -13,8 +13,8 @@ services:
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
-        ports:
-            - "4532:5000"
+        expose:
+            - "5000"
         hostname: chibisafe
         restart: unless-stopped
         environment:
