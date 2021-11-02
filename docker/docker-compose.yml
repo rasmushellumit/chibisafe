@@ -3,7 +3,7 @@ version: "3.7"
 networks: #Add to my Nginx Network in Docker/Not really needed 
     default:
         external:
-            name: nginxproxymanager_default	
+            name: nginxproxymanager_default
 
 services:
     chibisafe:
