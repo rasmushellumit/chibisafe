@@ -10,6 +10,8 @@ services:
         build:
             context: ../
             dockerfile: ./docker/chibisafe/Dockerfile
+        image: rapphy243/chibisafe #Tag Docker Image
+        container_name: chibisafe #Name container name
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
