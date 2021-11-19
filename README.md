@@ -1,6 +1,6 @@
 ## Changes from the original fork
-Makes it so the docker-compose file works with portainer and removes the need for nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
-Adds Ulalou's IOS Shortcut in the footer
+- Makes it so the docker-compose file works properly with Portainer and removes the need for Nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
+- Adds Ulalou's IOS Shortcut in the footer
 
 ##
 
