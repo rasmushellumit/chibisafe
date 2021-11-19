@@ -13,15 +13,6 @@ Adds Ulalou's IOS Shortcut in the footer
 [![Support me](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dpitu%26type%3Dpledges&style=flat-square)](https://www.patreon.com/pitu)
 [![Support me](https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/kana)
 
-## What is Chibisafe?
-Chibisafe is a file uploader service written in node that aims to to be easy to use and easy to set up. It's mainly intended for images and videos, but it accepts anything you throw at it.
-- You can run it in public or private mode, making it so only people with user accounts can upload files as well as controlling if user signup is enabled or not.
-- Out of the box support for ShareX configuration letting you upload screenshots and screenrecordings directly to your chibisafe instance.
-- Browser extension to be able to right click any image/video from any website and upload it directly to your chibisafe instance.
-- Chunk uploads enabled by default to be able to handle big boi files.
-- API Key support so you can integrate the service with whatever you desire.
-- Albums, tags and Discord-like search function
-- User list and control panel
 
 ### Docker Setup
 - Note that I use Portainer to make life easier.
@@ -33,6 +24,17 @@ Chibisafe is a file uploader service written in node that aims to to be easy to 
 - For repository reference input refs/heads/Docker and for compose path put docker/docker-compose.yml
 - Wait a bit and you should now have a docker rapphsafe instance
 - Now you can edit the code to make your rapphsafe instance more personalized
+
+
+## What is Chibisafe?
+Chibisafe is a file uploader service written in node that aims to to be easy to use and easy to set up. It's mainly intended for images and videos, but it accepts anything you throw at it.
+- You can run it in public or private mode, making it so only people with user accounts can upload files as well as controlling if user signup is enabled or not.
+- Out of the box support for ShareX configuration letting you upload screenshots and screenrecordings directly to your chibisafe instance.
+- Browser extension to be able to right click any image/video from any website and upload it directly to your chibisafe instance.
+- Chunk uploads enabled by default to be able to handle big boi files.
+- API Key support so you can integrate the service with whatever you desire.
+- Albums, tags and Discord-like search function
+- User list and control panel
 
 
 ### Screenshots
