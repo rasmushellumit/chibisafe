@@ -14,7 +14,7 @@ Adds Ulalou's IOS Shortcut in the footer
 [![Support me](https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/kana)
 
 
-### Docker Setup
+## Docker Setup
 - Note that I use Portainer to make life easier.
 - Make a fork of this repository.
 - Edit variables in docker/docker-compose.yml
