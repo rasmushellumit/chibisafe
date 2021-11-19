@@ -24,15 +24,15 @@ Chibisafe is a file uploader service written in node that aims to to be easy to 
 - User list and control panel
 
 ### Docker Setup
-Note that I use Portainer to make life easier.
-Make a fork of this repository.
-Edit variables in docker/docker-compose.yml
-Open Portainer and open stacks in your environment
-Make a new stack
-Use git repository and for the url paste a link to your fork of this Github page
-For repository reference input refs/heads/Docker and for compose path put docker/docker-compose.yml
-Wait a bit and you should now have a docker rapphsafe instance
-Now you can edit the code to make your rapphsafe instance more personalized
+- Note that I use Portainer to make life easier.
+- Make a fork of this repository.
+- Edit variables in docker/docker-compose.yml
+- Open Portainer and open stacks in your environment
+- Make a new stack
+- Use git repository and for the url paste a link to your fork of this Github page
+- For repository reference input refs/heads/Docker and for compose path put docker/docker-compose.yml
+- Wait a bit and you should now have a docker rapphsafe instance
+- Now you can edit the code to make your rapphsafe instance more personalized
 
 
 ### Screenshots
