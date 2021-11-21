@@ -6,7 +6,7 @@
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				chibisafe is an easy to use, open source and completely free file upload service. We accept your files, photos, documents, anything, and give you back a shareable link for you to send to others.
+				chibisafe is an easy to use, open source and completely free file upload service. It accepts your files, photos, documents, anything, and gives you back a shareable link for you to send to others.
 			</div>
 		</article>
 
@@ -15,17 +15,10 @@
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				Definitely. Head to <a target="_blank" href="https://github.com/WeebDev/chibisafe">our GitHub repo</a> and follow the instructions to clone, build and deploy it by yourself. It's super easy too!
+				Definitely. Head to <a target="_blank" href="https://github.com/WeebDev/chibisafe">their GitHub repo</a> and follow the instructions to clone, build and deploy it by yourself. It's super easy too!
 			</div>
 		</article>
-
-		<h2 class="subtitle">
-			How can I keep track of my uploads?
-		</h2>
-		<article class="message">
-			<div class="message-body">
-				Simply create a user on the site and every upload will be associated with your account, granting you access to your uploaded files through our dashboard.
-			</div>
+		
 		</article>
 
 		<h2 class="subtitle">
