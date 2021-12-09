@@ -39,7 +39,7 @@ defaults:
           tags: |
             rapphy243/chibisafe:latest
           # build on feature branches, push only on main branch
-          push: ${{ github.ref == 'refs/heads/main' }}
+          push: ${{ github.ref == 'refs/heads/Docker' }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
