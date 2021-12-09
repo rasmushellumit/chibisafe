@@ -33,13 +33,13 @@ defaults:
       - name: Build image and push to Docker Hub and GitHub Container Registry
         uses: docker/build-push-action@v2
         with:
-          # relative path to the place where source code with Dockerfile is located
-          context: ./src/samples/simple
+          # relative path to the ce where source code with Dockerfile is located
+          context: ./docker/chibisafe
           # Note: tags has to be all lower-case
           tags: |
             rapphy243/chibisafe:latest
           # build on feature branches, push only on main branch
-          push: ${{ github.ref == 'refs/heads/Docker' }}
+          push: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
