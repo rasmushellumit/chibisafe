@@ -28,7 +28,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: ./
-          dockerfile: ./docker/chibisafe/Dockerfile
+          context: ../
+          dockerfile: /docker/chibisafe/Dockerfile
           push: true
           tags: rapphy243/chibisafe:test
