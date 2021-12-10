@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./
-          dockerfile: /docker/chibisafe
+          dockerfile: ./docker/chibisafe/Dockerfile
           push: true
           tags: rapphy243/chibisafe:test
