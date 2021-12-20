@@ -38,7 +38,7 @@ services:
             MAX_SIZE: 72727
             GENERATE_THUMBNAILS: "true"
             GENERATE_ZIPS: "true"
-            STRIP_EXIF: "true" #Recomenened to keep true for privacy.
+            STRIP_EXIF: "false" #Recomenened to keep true for privacy.
             SERVE_WITH_NODE: "true"
             GENERATED_FILENAME_LENGTH: 10
             GENERATED_ALBUM_LENGTH: 6
