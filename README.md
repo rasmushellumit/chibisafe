@@ -1,9 +1,11 @@
 ## Changes from the original fork
 - Makes it so the docker-compose file works properly with Portainer and removes the need for Nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
 - Adds Ulalou's IOS Shortcut in the footer
+- Deleted a lot of stuff I probably shouldn't have
+- Current files are for my instance
 
 ##
-
+Note I am very bad at git in general
 <p align="center">
   <img width="234" height="376" src="https://lolisafe.moe/xjoghu.png">
 </p>
@@ -14,7 +16,7 @@
 
 
 ## Docker Setup
-- Note that I use Portainer to make life easier.
+Note that I use Portainer to make life easier.
 - Make a fork of this repository.
 - Edit variables in docker/docker-compose.yml
 - Open Portainer and open stacks in your environment
