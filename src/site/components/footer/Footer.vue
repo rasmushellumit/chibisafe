@@ -12,15 +12,15 @@
 					<span>{{ version }}</span>
 				</div>
 				<div class="column is-narrow bottom-up">
-					<a href="https://github.com/weebdev/chibisafe">GitHub</a>
-					<a href="https://patreon.com/pitu">Patreon</a>
-					<a href="https://discord.gg/5g6vgwn">Discord</a>
+					<a href="https://github.com/rapphy243/chibisafe">GitHub</a>
+					<a href="CatGirl#0142">CatGirl#0142</a>
 				</div>
 				<div class="column is-narrow bottom-up">
 					<a
 						v-if="loggedIn"
 						@click="createShareXThing">ShareX Config</a>
 					<a href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj">Chrome Extension</a>
+					<a href="https://www.icloud.com/shortcuts/48ac849f13cc4b50b42bc1a478bddcb6">iOS Shortcut</a>
 				</div>
 			</div>
 		</div>

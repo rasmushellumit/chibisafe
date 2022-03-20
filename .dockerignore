@@ -16,7 +16,7 @@ pids
 .vscode
 
 # Docker (experimental)
-docker/
+.docker/
 Dockerfile
 .dockerignore
 docker-compose.yml
@@ -34,6 +34,7 @@ jest.config.js
 tsconfig.eslint.json
 
 # Miscellaneous
+.github/
 .tmp
 .vscode
 .git
@@ -43,4 +44,5 @@ README.md
 chibi.ps1
 chibi.sh
 dist
+.docs
 .nuxt

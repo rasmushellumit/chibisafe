@@ -6,7 +6,7 @@
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				chibisafe is an easy to use, open source and completely free file upload service. We accept your files, photos, documents, anything, and give you back a shareable link for you to send to others.
+				chibisafe is an easy to use, open source and completely free file upload service. It accepts your files, photos, documents, anything, and gives you back a shareable link for you to send to others.
 			</div>
 		</article>
 
@@ -15,17 +15,10 @@
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				Definitely. Head to <a target="_blank" href="https://github.com/WeebDev/chibisafe">our GitHub repo</a> and follow the instructions to clone, build and deploy it by yourself. It's super easy too!
+				Definitely. Head to <a target="_blank" href="https://github.com/WeebDev/chibisafe">their GitHub repo</a> and follow the instructions to clone, build and deploy it by yourself. It's super easy too!
 			</div>
 		</article>
-
-		<h2 class="subtitle">
-			How can I keep track of my uploads?
-		</h2>
-		<article class="message">
-			<div class="message-body">
-				Simply create a user on the site and every upload will be associated with your account, granting you access to your uploaded files through our dashboard.
-			</div>
+		
 		</article>
 
 		<h2 class="subtitle">
@@ -43,6 +36,15 @@
 		<article class="message">
 			<div class="message-body">
 				There are too many file upload services out there, and a lot of them rely on the foundations of pomf which is ancient. In a desperate and unsuccessful attempt of finding a good file uploader that's easily extendable, chibisafe was born. We give you control over your files, we give you a way to sort your uploads into albums for ease of access and we give you an api to use with ShareX or any other thing that let's you make POST requests.
+			</div>
+		</article>
+		
+			<h2 class="subtitle">
+			Who is rapphy243?
+		</h2>
+		<article class="message">
+			<div class="message-body">
+				I'm some random kid on the internet who decided to tried to edit and understand code with no prior coding knowledge. 
 			</div>
 		</article>
 	</div>
