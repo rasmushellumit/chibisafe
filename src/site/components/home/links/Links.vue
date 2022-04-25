@@ -1,14 +1,23 @@
 <template>
 	<div class="links">
 		<a
-			href="https://github.com/WeebDev/chibisafe"
+			href="https://rapph.dev"
+			target="_blank"
+			class="link">
+			<header class="bd-footer-star-header">
+				<h4 class="bd-footer-title">Go To My Website</h4>
+			</header>
+		</a>
+		<div
+			v-if="!loggedIn"
+			href="https://github.com/rapphy243/chibisafe"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
 				<h4 class="bd-footer-title">GitHub</h4>
 				<p class="bd-footer-subtitle">Deploy your own chibisafe</p>
 			</header>
-		</a>
+		</div>
 		<div
 			v-if="loggedIn"
 			class="link"
