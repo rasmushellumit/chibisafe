@@ -1,11 +1,11 @@
 ## Changes from the original fork
-- Makes it so the docker-compose file works properly with Portainer and removes the need for Nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
+- Makes it so the docker-compose file works better with Portainer and removes the need for Nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
 - Adds Ulalou's IOS Shortcut in the footer
 - Deleted a lot of stuff I probably shouldn't have
 - Current files are for my instance
+- Created a guide (Listed Below)
 
 ##
-Note I am very bad at git in general
 <p align="center">
   <img width="234" height="376" src="https://lolisafe.moe/xjoghu.png">
 </p>
@@ -17,14 +17,8 @@ Note I am very bad at git in general
 
 ## Docker Setup
 Note that I use Portainer to make life easier.
-- Make a fork of this repository.
-- Edit variables in docker/docker-compose.yml
-- Open Portainer and open stacks in your environment
-- Make a new stack
-- Use git repository and for the url paste a link to your fork of this Github page
-- For repository reference input refs/heads/Docker and for compose path put docker/docker-compose.yml
-- Wait a bit and you should now have a docker rapphsafe instance
-- Now you can edit the code to make your rapphsafe instance more personalized
+I am very bad at git also. 😭
+[Instructions/Guide](https://rapph.dev/guide-chibisafe/)
 
 
 ## What is Chibisafe?
