@@ -15,12 +15,10 @@
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				Definitely. Head to <a target="_blank" href="https://github.com/WeebDev/chibisafe">their GitHub repo</a> and follow the instructions to clone, build and deploy it by yourself. It's super easy too!
+				Definitely. Head to <a target="_blank" href="https://github.com/rapphy243/chibisafe"></a> and follow the instructions to build and deploy it by yourself.
 			</div>
 		</article>
 		
-		</article>
-
 		<h2 class="subtitle">
 			What are albums?
 		</h2>
@@ -40,11 +38,11 @@
 		</article>
 		
 			<h2 class="subtitle">
-			Who is rapphy243?
+			Who is Rapphy243?
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				I'm some random kid on the internet who decided to tried to edit and understand code with no prior coding knowledge. 
+				I'm some random on the internet who decided to tried to edit and understand code with no prior coding knowledge. Headover to my website to learn more.  
 			</div>
 		</article>
 	</div>

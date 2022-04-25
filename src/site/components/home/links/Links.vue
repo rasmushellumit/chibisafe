@@ -1,13 +1,21 @@
 <template>
 	<div class="links">
 		<a
-			href="https://github.com/WeebDev/chibisafe"
+			href="https://rapph.dev"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">GitHub</h4>
-				<p class="bd-footer-subtitle">Deploy your own chibisafe</p>
+				<h4 class="bd-footer-title">Rapph.dev</h4>
+				<p class="bd-footer-subtitle">My Website 😁</p>
 			</header>
+		</a>
+		<a
+			href="https://github.com/rapphy243/chibisafe"
+			target="_blank"
+			class="link">
+			<header class="bd-footer-star-header">
+			<h4 class="bd-footer-title">Github</h4>
+			<p class="bd-footer-subtitle">Deploy your own Chibisafe</p>
 		</a>
 		<div
 			v-if="loggedIn"
@@ -22,15 +30,6 @@
 				</p>
 			</header>
 		</div>
-		<a
-			href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj"
-			target="_blank"
-			class="link">
-			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">Extension</h4>
-				<p class="bd-footer-subtitle">Upload from any website</p>
-			</header>
-		</a>
 		<router-link
 			to="/faq"
 			class="link">

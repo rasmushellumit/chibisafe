@@ -15,7 +15,7 @@ services:
         volumes:
             - ./chibisafe-data:/usr/chibisafe/uploads
             - ./chibisafe-database:/usr/chibisafe/database
-        ports: #You still need to have a reverse proxy pointing to the container. Connecting to it through localhost or any other means will give you issues. Refer to guide or contact me if you don't understand.
+        ports: #You still should have a reverse proxy pointing to the container. Connecting to it through localhost or any other means might/will probably give you issues.
             - 5051:5000
         hostname: chibisafe
         restart: unless-stopped
@@ -25,7 +25,7 @@ services:
             ROUTE_PREFIX: /api
             RATE_LIMIT_WINDOW: 2
             RATE_LIMIT_MAX: 5
-            SECRET: "wowfcgMHqZHwOIMLadWrKu3liyqPOOILpDLSDvuxq3YGhJmiZXJCVpnF96l11WfR"
+            SECRET: #"wowfcgMHqZHwOIMLadWrKu3liyqPOOILpDLSDvuxq3YGhJmiZXJCVpnF96l11WfR" <--- "openssl rand -base64 32" To Generate.
             MAX_LINKS_PER_ALBUM: 5
             META_THEME_COLOR: "#20222b"
             META_DESCRIPTION: "Blazing fast file uploader edited by @rapphy243!🚀"
@@ -38,14 +38,14 @@ services:
             MAX_SIZE: 72727
             GENERATE_THUMBNAILS: "true"
             GENERATE_ZIPS: "true"
-            STRIP_EXIF: "false" #Recomenened to keep true for privacy.
+            STRIP_EXIF: "false" #Recommended to keep true.
             SERVE_WITH_NODE: "true"
             GENERATED_FILENAME_LENGTH: 10
             GENERATED_ALBUM_LENGTH: 6
             PUBLIC_MODE: "false"
             USER_ACCOUNTS: "true"
-            ADMIN_ACCOUNT: "admin"
-            ADMIN_PASSWORD: "admin"
+            ADMIN_ACCOUNT: #"admin"
+            ADMIN_PASSWORD: #"admin"
             DB_CLIENT: "sqlite3" #You probably should be running a external DB, but there is one already part of the container.
             DB_HOST: ""
             DB_USER: ""
