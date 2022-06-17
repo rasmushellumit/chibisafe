@@ -27,9 +27,6 @@
 	</footer>
 </template>
 
-//<!-- Scale8 Tag Manager -->
-<script src="https://analytics.rapph.dev/edge/62ac2566b2a5110994c76db6/tm.js" async></script>
-//<!-- / Scale8 Tag Manager -->
 <script>
 /* eslint-disable no-restricted-globals */
 
