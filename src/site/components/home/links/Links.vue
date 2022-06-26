@@ -10,7 +10,7 @@
 			</header>
 		</a>
 		<a
-			href="https://github.com/rapphy243/chibisafe"
+			href="https://github.com/rasmushellumit/chibisafe"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
