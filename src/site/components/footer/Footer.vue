@@ -12,7 +12,7 @@
 					<span>{{ version }}</span>
 				</div>
 				<div class="column is-narrow bottom-up">
-					<a href="https://github.com/rapphy243/chibisafe">GitHub</a>
+					<a href="https://github.com/rasmushellumit/chibisafe">GitHub</a>
 					<a href="CatGirl#0142">CatGirl#0142</a>
 				</div>
 				<div class="column is-narrow bottom-up">
