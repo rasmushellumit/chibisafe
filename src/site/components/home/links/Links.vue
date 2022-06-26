@@ -6,7 +6,7 @@
 			class="link">
 			<header class="bd-footer-star-header">
 				<h4 class="bd-footer-title">hellum.it</h4>
-				<p class="bd-footer-subtitle">My Website 😁</p>
+				<p class="bd-footer-subtitle">hellums website😁</p>
 			</header>
 		</a>
 		<a
