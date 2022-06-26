@@ -5,7 +5,7 @@
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">Rapph.dev</h4>
+				<h4 class="bd-footer-title">hellum.it</h4>
 				<p class="bd-footer-subtitle">My Website 😁</p>
 			</header>
 		</a>
