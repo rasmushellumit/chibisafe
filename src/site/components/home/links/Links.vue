@@ -1,7 +1,7 @@
 <template>
 	<div class="links">
 		<a
-			href="https://rapph.dev"
+			href="https://hellum.it"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
